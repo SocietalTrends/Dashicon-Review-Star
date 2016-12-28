@@ -1,0 +1,24 @@
+/* Dashicons */
+.star_full:before {
+		font-family: "dashicons";
+		content: "\f155";
+		display: inline-block;
+		font-size: 20px;
+		color: #ffb900;
+}
+
+.star_half:before {
+		font-family: "dashicons";
+		content: "\f459";
+		display: inline-block;
+		font-size: 20px;
+		color: #ffb900;
+}
+
+.star_empty:before {
+		font-family: "dashicons";
+		content: "\f154";
+		display: inline-block;
+		font-size: 20px;
+		color: #ffb900;
+}
