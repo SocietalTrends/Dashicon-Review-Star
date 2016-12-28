@@ -7,7 +7,7 @@ Dashicon-Review-Star
 
 実装方法 - How to implement
 -----
-<p>本レポジトリのfunction.phpの内容を、使用しているWordpressテーマ下のfunction.phpに追記し、同じくstyle.cssの内容も、使用しているテーマ下のstyle.cssに追記することで動作します。</p>
+<p>本レポジトリのfunction.phpの内容を、使用しているWordpress（子）テーマ下のfunction.phpに追記し、同じくstyle.cssの内容も、使用している（子）テーマ下のstyle.cssに追記することで動作します。</p>
 
 使用方法 - How to use
 -----
