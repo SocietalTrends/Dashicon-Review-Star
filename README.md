@@ -3,7 +3,7 @@ WordPress の Dashicon とショートコードを用いてレビューのスタ
 
 使用方法 - How to use
 -----
-本レポジトリのfunction.phpの内容を、使用しているWordpressテーマのfunction.phpに追記し、同じくstyle.cssの内容も、使用しているテーマのstyle.cssに追記することで動作します。
+本レポジトリのfunction.phpの内容を、使用しているWordpressテーマ下のfunction.phpに追記し、同じくstyle.cssの内容も、使用しているテーマ下のstyle.cssに追記することで動作します。
 
 ライセンス - Licence
 -----
