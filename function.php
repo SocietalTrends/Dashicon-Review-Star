@@ -31,7 +31,7 @@ function reviewStar($rating){
 		for($j = 0; $j < $max; $j++){
 			$star .= "<span class='star_empty'></span>";
 		}
-		echo($star);
+		echo "<div class='review'>$star</div>";
 	}
 }
 //ショートコードを実行
