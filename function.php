@@ -5,14 +5,14 @@ function load_dashicons() {
 }
 
 
-/* レビューのためのショートコード定義 */
+/* レビューのためのショートコード関数定義 */
 function reviewStar($rating){
 
 	//デフォルト引数を定義
 	$rating = shortcode_atts(array(
 		"review" => 0, //評価スターの数
 		"isdeci" => 0, //小数点の有無(0か1で設定。デフォルトは無し)
-		"max" => 5	   //最大スター数
+		"max" => 5     //最大スター数
 	), $rating);
 
 	$star;
@@ -34,4 +34,5 @@ function reviewStar($rating){
 		echo($star);
 	}
 }
+//ショートコードを実行
 add_shortcode("star", "reviewStar");
