@@ -17,14 +17,14 @@ function reviewStar($rating){
 
 	$star;
 
-	for($i = 0; $i < $rating["review"]; $i++){
+	for($i = 0; $i<$rating["review"]; $i++){
 		$star .= "<span class='star_full'></span>";
 	}
-	if($rating["isdeci"] == 1 && $rating["review"] != $rating["max"]){
+	if($rating["isdeci"] == 1&&$rating["review"] != $rating["max"]){
 			$star .= "<span class='star_half'></span>";
 			$rating["review"] = $rating["review"] + $rating["isdeci"];
 	}
-	if($rating["review"] > $rating["max"]){
+	if($rating["review"]>$rating["max"]){
 		echo("<br>[[デフォルトの最大数を超えたスターを表示することはできません。]]<br>[[表示するには第3引数の属性maxを用いて max = x と最大数を任意に設定してください。]]<br>");		
 	}else{
 		$max = $rating["max"] - $rating["review"];
